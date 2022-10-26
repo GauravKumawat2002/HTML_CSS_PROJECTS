@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1440px;
+  height: 1024px;
+}
+
+header {
+  padding: 80px 165px 52px 165px;
+}
+
+header > img {
+  float: left;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+}
