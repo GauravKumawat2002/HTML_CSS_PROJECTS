@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 3px solid black;
+        }
+
+        body {
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+                "bg bg box1"
+                "box2 box3 box4"
+                "box5 box6 box7";
+        }
+    </style>
+</head>
+
+<body>
+    <img style="grid-area: bg;" src="https://picsum.photos/1024/512"></img>
+    <div style="grid-area: box1;"></div>
+    <div style="grid-area: box2;"></div>
+    <div style="grid-area: box3;"></div>
+    <div style="grid-area: box4;"></div>
+    <div style="grid-area: box5;"></div>
+    <div style="grid-area: box6;"></div>
+    <div style="grid-area: box7;"></div>
+</body>
+
+</html>
