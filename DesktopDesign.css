@@ -100,3 +100,8 @@ header {
   height: 127px;
   width: auto;
 }
+
+h3 {
+  color: hsl(233, 8%, 79%);
+  padding-left: 26px;
+}
